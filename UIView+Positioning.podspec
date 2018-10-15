@@ -1,11 +1,11 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'UIView+Positioning'
-  spec.version      = '1.6'
+  spec.name         = 'UIViewFrameSwift'
+  spec.version      = '2.0.0'
   spec.license      = { :type => 'MIT' }
-  spec.homepage     = 'https://github.com/freak4pc/UIView-Positioning'
-  spec.authors      = { 'Shai Mishali' => 'freak4pc@gmail.com' }
+  spec.homepage     = 'https://github.com/jprothwell/UIView-Positioning'
+  spec.authors      = { 'Leon' => 'jprothwell@gmail.com' }
   spec.summary      = 'UIView+Positioning provides shorthand methods and helpers to define the frame properties of any UIView based object in an easy fashion.'
-  spec.source       = { :git => 'https://github.com/freak4pc/UIView-Positioning.git', :tag => 'v1.6' }
-  spec.source_files = 'UIView+Positioning.swift'
+  spec.source       = { :git => 'https://github.com/jprothwell/UIView-Positioning.git', :tag => s.version.to_s }
+  spec.source_files = 'UIViewFrame.swift'
   spec.platform     = :ios, '8.0'
 end
